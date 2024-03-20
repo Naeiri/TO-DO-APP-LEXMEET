@@ -1,0 +1,93 @@
+.task-box{
+  background-color: rgba(0, 0, 0, 0.05);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.uncompleted-date, .completed-date {
+  font-size: 13px;
+  color: #5E1B89;
+
+}
+
+.edit-input{
+  width: 100%;
+  border: none;
+  outline: none;
+  color: #5E1B89;
+}
+
+.box-icon svg {
+  width: 100%;
+  height: 100%;
+  color: #F4512C;
+}
+
+.check-circle svg, .edit-icon svg {
+  color: #FF7F4D;
+}
+
+.check-circle svg:hover, .edit-icon svg:hover {
+  color: #F4512C;
+}
+
+.de-icon svg {
+  color: #9D71BC;
+}
+
+.de-icon svg:hover {
+  color: #5E1B89;
+}
+
+.textCompleted {
+  overflow: hidden;
+  white-space: normal;
+}
+
+.completed-date, .textCompleted {
+  color: #808080;
+  text-decoration: line-through;
+}
+
+.cancel-button, .delete-button {
+    color: #F8FFFE;
+    border-radius: 5px;
+    border: transparent;
+    height: 38px;
+  }
+  
+  .delete-button {
+    background-color: #5E1B89;
+    width: 95px;
+  }
+
+  .delete-button:hover {
+    background-color: transparent;
+    color: #5E1B89;
+    border: 1px solid #5E1B89;
+  }
+  
+  .cancel-button {
+    background-color: #F4512C;
+    width: 70px;
+  }
+
+  .cancel-button:hover {
+    background-color: transparent;
+    color: #F4512C;
+    border: 1px solid #F4512C;
+  }
+
+  .textUncompleted{
+    color: #5E1B89;
+  }
+
+  .input-container {
+    position: relative;
+  }
+
+  .invalid-feedback {
+      position: absolute;
+      top: -20px;
+      left: 0;
+      font-size: 14px;
+  }

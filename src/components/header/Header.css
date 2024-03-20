@@ -1,0 +1,33 @@
+header {
+    background: url('../../assets/Top-bg-header.png');
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+
+.custom-container {
+    font-family: "Lato", sans-serif;
+    max-width: 1130px;
+}
+
+.title {
+    font-family: "Roboto Slab", sans-serif;
+}
+
+.create-cmd {
+    position: relative;
+    height: 54px;
+    top: 25px;
+    display: flex;
+    width: 100%;
+}
+
+.create-cmd button {
+    background-color: #5E1B89;
+    color: #F8FFFE;
+}
+
+.create-cmd button:hover {
+    background-color: #9D71BC;
+    color: #F8FFFE;
+}

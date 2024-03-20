@@ -1,0 +1,18 @@
+:root {
+    --striking-orange: #F4512C;
+    --orange-color: #FF7F4D;
+    --lawful-purple: #5E1B89;
+    --purple-color: #9D71BC;
+    --white-color: #F8FFFE;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1020px;
+    margin: 0 auto;
+}

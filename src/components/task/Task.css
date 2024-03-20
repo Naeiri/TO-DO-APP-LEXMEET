@@ -1,0 +1,69 @@
+.wrap {
+    margin-top: 5%;
+    font-family: "Lato", sans-serif;
+  }
+  
+.inline-block {
+  display: inline-block;
+  color: #F4512C;
+}
+
+.emp {
+  color: #5E1B89;
+}
+
+span, .delete-button-all{
+  background-color: #5E1B89;
+}
+
+.delete-button-all:hover{
+  background-color: transparent;
+  color: #5E1B89;
+  border: 1px solid #5E1B89;
+}
+
+.cancel-button-all, .delete-button-all {
+  color: #F8FFFE;
+}
+
+.delall-button {
+  background-color: #5E1B89;
+  color: #F8FFFE;
+  border: none;
+}
+
+.delall-button:hover {
+  background-color: transparent;
+  border: 1px solid #5E1B89;
+  color: #5E1B89;
+
+}
+
+.cancel-button-all {
+  background-color: #F4512C;
+}
+
+.cancel-button-all:hover {
+  background-color: transparent;
+  color: #F4512C;
+  border: 1px solid #F4512C;
+}
+
+.cancel-button-all, .delete-button-all {
+  border-radius: 5px;
+  border: transparent;
+  height: 38px;
+  width: 70px;
+}
+
+.markun-button {
+  background-color: #F4512C;
+  color: #F8FFFE;
+  border: none;
+}
+
+.markun-button:hover {
+  color: #F4512C;
+  background-color: transparent;
+  border: 1px solid #F4512C;
+}
