@@ -26,15 +26,15 @@ const Header = ( {onAddTask}) => {
         <form onSubmit={handleSubmit} class='create-cmd' >
           <div class="input-group">
             <input 
-            class="form-control"
-            style={{ color: '#5E1B89'}}
+            class="form-control border-end-0"
+            style={{ color: '#F4512C'}}
             type="text" 
             placeholder="Add a new task.." 
             value={title}
             onChange={onChangeTitle}
             required 
             />
-            <button class="px-5 btn" type="submit">Add</button> 
+            <button class="px-5 rounded-end" type="submit">Add</button> 
           </div>
         </form>
       </div>
