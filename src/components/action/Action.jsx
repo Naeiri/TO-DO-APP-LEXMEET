@@ -64,7 +64,7 @@ const Action = ( {task, onComplete, onDelete, onEdit } ) => {
                                             autoFocus
                                         />
                                         {!isValid && (
-                                            <div class="invalid-feedback d-block ms-2 border-top" style={{ color: '#F4512C'}}>
+                                            <div class="invalid-feedback d-block ms-2 border-top fw-italic" style={{ color: '#F4512C'}}>
                                                 !Task cannot be empty
                                             </div>
                                         )}
@@ -114,7 +114,7 @@ const Action = ( {task, onComplete, onDelete, onEdit } ) => {
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">    
                         <div class="modal-header">
-                            <h5 class="modal-title" id='ModalLabel'>{`Confirm Deletion of '${showModalItem.title}'`}</h5>
+                            <h5 class="modal-title fw-bold" id='ModalLabel'>{`Confirm Deletion of '${showModalItem.title}'`}</h5>
                             <button type="button" className="btn-close" onClick={() => setShowModalItem(false)} data-bs-dismiss="modal"></button>
                         </div>
                         <div class="modal-body">
