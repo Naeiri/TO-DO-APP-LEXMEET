@@ -71,7 +71,7 @@ const Task = ({
                     <div class="modal-content">
                       <div class="modal-header">
                         <PiTrashSimpleBold size={30} color="#5E1B89" />
-                        <h5 class="modal-title ms-2" id="exampleModalLabel">Are you sure?</h5>
+                        <h5 class="modal-title ms-2 fw-bold" id="exampleModalLabel">Are you sure?</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
