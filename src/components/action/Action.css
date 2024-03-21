@@ -23,19 +23,19 @@
 }
 
 .check-circle svg, .edit-icon svg {
-  color: #FF7F4D;
-}
-
-.check-circle svg:hover, .edit-icon svg:hover {
   color: #F4512C;
 }
 
+.check-circle svg:hover, .edit-icon svg:hover {
+  color: #FF7F4D;
+}
+
 .de-icon svg {
-  color: #9D71BC;
+  color: #5E1B89;
 }
 
 .de-icon svg:hover {
-  color: #5E1B89;
+  color: #9D71BC;
 }
 
 .textCompleted {
@@ -83,11 +83,4 @@
 
   .input-container {
     position: relative;
-  }
-
-  .invalid-feedback {
-      position: absolute;
-      top: -20px;
-      left: 0;
-      font-size: 14px;
   }
