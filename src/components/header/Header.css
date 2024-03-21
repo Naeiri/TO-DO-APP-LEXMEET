@@ -21,7 +21,6 @@ header {
 
 .form-control::placeholder {
     color: #FF7F4D !important;
-    opacity: 0.6 !important;
 }
 
 .create-cmd {
