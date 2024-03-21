@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./Header.css"
-import lmLogo from '../../assets/lm-logo.svg';
+import logo from '../../assets/logo.svg';
 
 const Header = ( {onAddTask}) => {
   const [title, setTitle] = useState('');
@@ -17,8 +17,8 @@ const Header = ( {onAddTask}) => {
 
   return (
     <header class="container-fluid">
+      <img src={logo} alt="LexMeet Logo" width="150" class="me-3 mt-3"/>
       <div class="px-5 pt-5 d-flex justify-content-center">
-        <img src={lmLogo} alt="LexMeet Logo" width="50" class="mb-5 me-2"/>
         <p class="title display-5 text-white fw-bolder mb-5">TO-DO LIST</p>
       </div>
 
