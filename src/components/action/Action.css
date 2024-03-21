@@ -56,25 +56,21 @@
   }
   
   .delete-button {
-    background-color: #5E1B89;
+    background-color: #9D71BC;
     width: 95px;
   }
 
   .delete-button:hover {
-    background-color: transparent;
-    color: #5E1B89;
-    border: 1px solid #5E1B89;
+    background-color: #5E1B89;
   }
   
   .cancel-button {
-    background-color: #F4512C;
+    background-color: #FF7F4D;
     width: 70px;
   }
 
   .cancel-button:hover {
-    background-color: transparent;
-    color: #F4512C;
-    border: 1px solid #F4512C;
+    background-color: #F4512C;
   }
 
   .textUncompleted{
