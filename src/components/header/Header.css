@@ -14,6 +14,16 @@ header {
     font-family: "Roboto Slab", sans-serif;
 }
 
+.form-control:focus {
+    border-color: #ced4da !important;
+    box-shadow: none !important;
+}
+
+.form-control::placeholder {
+    color: #FF7F4D !important;
+    opacity: 0.6 !important;
+}
+
 .create-cmd {
     position: relative;
     height: 54px;
@@ -25,9 +35,11 @@ header {
 .create-cmd button {
     background-color: #5E1B89;
     color: #F8FFFE;
+    border: 1px solid #5E1B89;
 }
 
 .create-cmd button:hover {
     background-color: #9D71BC;
     color: #F8FFFE;
+    border: 1px solid #9D71BC;
 }
