@@ -30,14 +30,14 @@ const Task = ({
           <div class='col'>
             <div class='task-name'>
               <h6 class="inline-block fw-bolder">Created Task</h6>
-              <span class='ms-3 text-white py-1 px-2 rounded-pill'>{tasksQuantity}</span>
+              <span class='ms-3 py-1 px-2 rounded-pill'>{tasksQuantity}</span>
             </div>
           </div>
 
           <div class='col'>
             <div class='task-name text-end'>
               <p class="text-end inline-block fw-bolder">Completed Task</p>
-              <span class='ms-3 text-white py-1 px-2 rounded-pill'>{completedTask} / {tasksQuantity}</span>
+              <span class='ms-3 py-1 px-2 rounded-pill'>{completedTask} / {tasksQuantity}</span>
             </div>         
         </div>
         </div>
