@@ -64,8 +64,8 @@ const Action = ( {task, onComplete, onDelete, onEdit } ) => {
                                             autoFocus
                                         />
                                         {!isValid && (
-                                            <div class="invalid-feedback d-block ms-2 border-top fw-italic" style={{ color: '#F4512C'}}>
-                                                !Task cannot be empty
+                                            <div class="invalid-feedback d-block ms-2 border-top" style={{ color: '#F4512C'}}>
+                                                *Task cannot be empty*
                                             </div>
                                         )}
                                 </div>
