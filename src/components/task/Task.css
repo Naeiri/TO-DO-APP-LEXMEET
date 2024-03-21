@@ -8,11 +8,15 @@
   color: #F4512C;
 }
 
-.emp, .modal-title, .modal-body, .span {
+.emp, .modal-title, .modal-body{
   color: #5E1B89;
 }
 
-.cancel-button-all, .delete-button-all, .delall-button, .markun-button {
+span {
+  background-color: #5E1B89;
+}  
+
+span, .cancel-button-all, .delete-button-all, .delall-button, .markun-button {
   color: #F8FFFE;
 }
 
@@ -42,7 +46,6 @@
   background-color: #5E1B89;
 }
 
-
 .cancel-button-all {
   background-color: #FF7F4D ;
 }
@@ -57,5 +60,3 @@
   height: 38px;
   width: 70px;
 }
-
-
