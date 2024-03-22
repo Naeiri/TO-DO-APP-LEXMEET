@@ -13,7 +13,7 @@
   width: 100%;
   border: none;
   outline: none;
-  color: #5E1B89;
+  color: #F4512C;
 }
 
 .box-icon svg {
@@ -22,19 +22,19 @@
   color: #F4512C;
 }
 
-.check-circle svg, .edit-icon svg {
+.edit-icon svg {
   color: #F4512C;
 }
 
-.check-circle svg:hover, .edit-icon svg:hover {
+.edit-icon svg:hover {
   color: #FF7F4D;
 }
 
-.de-icon svg {
+.de-icon svg, .check-circle svg {
   color: #5E1B89;
 }
 
-.de-icon svg:hover {
+.de-icon svg:hover, .check-circle svg:hover {
   color: #9D71BC;
 }
 
